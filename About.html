@@ -1,1 +1,67 @@
-
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Coach - About Us</title>
+     <style>
+         * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Arial', sans-serif; }
+         :root {
+             --warmfog: #EAE5DF;
+             --berrygood: #A63446;
+             --soldiergreen: #4A5248;
+         }
+         body { background: var(--warmfog); }
+         nav { position: fixed; width: 100%; top: 0; background: rgba(255,255,255,0.9); padding: 1.2rem 5%; display: flex; justify-content: space-between; align-items: center; z-index: 100; }
+         .logo { font-size: 1.8rem; font-weight: bold; color: var(--soldiergreen); }
+         .nav-links a { text-decoration: none; color: var(--soldiergreen); margin-left: 1.5rem; }
+         .nav-links a:hover, .nav-links a.active { color: var(--berrygood); font-weight: bold; }
+         
+         /* --- STYLING FOR THE TEXT BOX --- */
+         .about-content {
+             max-width: 900px;
+             margin: 10rem auto;
+             padding: 3rem;
+             background: white;
+             border-radius: 10px;
+             box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+         }
+         .about-content h1 { 
+             color: var(--soldiergreen); 
+             text-align: center; 
+             margin-bottom: 2rem;
+             font-size: 2.5rem;
+         }
+         .about-content p { 
+             line-height: 1.8; 
+             color: #333;
+             font-size: 1.1rem;
+             margin-bottom: 1.5rem;
+             text-align: justify;
+         }
+         footer { background: var(--soldiergreen); color: white; text-align: center; padding: 2rem; margin-top: 4rem; }
+     </style>
+ </head>
+ <body>
+     <nav>
+         <div class="logo">COACH</div>
+         <div class="nav-links">
+             <a href="index.html">Home</a>
+             <a href="bags.html">Bags</a>
+             <a href="accessories.html">Accessories</a>
+             <a href="wear.html">Wear</a>
+             <a href="about.html" class="active">About Us</a>
+             <a href="feedback.html">Feedback</a>
+         </div>
+     </nav>
+     <div class="about-content">
+         <h1>About Us</h1>
+         <p>Founded in 1941, Coach stands for true American style and luxury. We are defined by our signature details, quality leather and classic designs that stand the test of time.</p>
+         <p>Our mission is to create objects of desire that are built to last. We believe in style that is timeless, yet always modern. From our iconic handbags to ready-to-wear collections, every piece is crafted with care and attention to detail.</p>
+         <p>Today, Coach continues to evolve, blending our rich heritage with contemporary fashion to bring you the very best in accessories and lifestyle.</p>
+     </div>
+     <footer>
+         <p>&copy; 2026 Coach. All rights reserved.</p>
+     </footer>
+ </body>
+ </html>
